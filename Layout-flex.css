@@ -1,0 +1,72 @@
+* /* Astric will select all elements */
+{
+    margin: 10;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* style the containers of the main layout structure*/
+
+#top-header
+
+{   
+   background-color: rgb(231, 99, 106);
+   border: 1px solid rgb(212, 151, 151);
+   margin: 1px;
+   padding: 10px;
+   color:rgb(20, 20, 19);
+   text-align: center;
+   font-size: 1rem;
+   
+   
+}
+#top-header img
+{
+width: 50%;
+height: 100px;
+}
+
+body
+{
+    background-color: rgb(5, 90, 62);
+}
+
+#Main-Container /*Parrent for the 3 columns*/
+{
+  display: flex; 
+  background-color:rgb(203, 226, 226);
+}
+
+
+
+#top-Menu
+{
+
+background-color: rgb(209, 160, 209);
+}
+
+#side-menu
+{
+    background-color: aquamarine;
+flex: 24%;
+padding: 10px;
+height: auto;
+}
+
+#main-content
+{
+    background-color: rgb(98, 166, 197);
+flex: 50%;
+
+}
+
+#right-column
+{
+    background-color: rgb(206, 53, 185);
+flex: 24%;
+padding: 10px;
+}
+
+#main-footer
+{
+background-color: azure;
+}
